@@ -1,3 +1,3 @@
 function downloadfile(){
-    window.open('https://drive.google.com/uc?export=download&id=1QvtDVIlL_fIeZuNN-Tn1chzDg9u8BOZP');
+    window.open('https://1drv.ms/u/s!AqMGZyoyI0QVcBfkpKDG_Y8bAKo?e=UnZxfF');
 }

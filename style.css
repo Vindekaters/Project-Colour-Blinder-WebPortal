@@ -1,26 +1,26 @@
-.footer{
+.footer {
     background-color: #1e272e;
-    
 }
 
-body{
+body {
     background-color: #ffc048;
 }
 
-.content-body{
+.content-body {
     background-color: #f6e58d;
-    margin-top: 120px ;
+    margin-top: 120px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 75px;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
-.thick-stick{
-    background-color:  #d35400;
+.thick-stick {
+    background-color: #d35400;
 }
 
-.header{
-    background-color:  #1e272e;
+.header {
+    background-color: #1e272e;
     font-family: "Matemasie", sans-serif;
     font-weight: 100;
 }
@@ -29,8 +29,84 @@ body{
     font-family: "Matemasie", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
 
-#downloadbtn{
+.header .text-center {
+    animation: slideInLeft 1s ease-out;
+}
+
+.header .text-center:hover {
+    color: #ffc048;
+    transition: color 0.3s ease;
+}
+
+#downloadbtn {
     background-color: #4cd137;
+    transition: transform 0.3s ease;
+}
+
+#downloadbtn:hover {
+    transform: scale(1.1);
+}
+
+.content-body p {
+    animation: fadeInWithDelay 1.5s ease-in-out 1s forwards;
+    opacity: 0;
+}
+
+.colour1 {
+    background-color: #4cd137;
+}
+
+.colour2 {
+    background-color: #37cfd1;
+}
+
+.colour3 {
+    background-color: #374cd1;
+}
+
+.colour4 {
+    background-color: #a037d1;
+}
+
+.colour5 {
+    background-color: #d13737;
+}
+
+.colour6 {
+    background-color: #e4a503;
+}
+
+.colour7 {
+    background-color: #5137d1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInWithDelay {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
