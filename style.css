@@ -23,6 +23,12 @@ body {
     background-color: #1e272e;
     font-family: "Matemasie", sans-serif;
     font-weight: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    
 }
 
 .matemasie-regular {
@@ -54,34 +60,6 @@ body {
     opacity: 0;
 }
 
-.colour1 {
-    background-color: #4cd137;
-}
-
-.colour2 {
-    background-color: #37cfd1;
-}
-
-.colour3 {
-    background-color: #374cd1;
-}
-
-.colour4 {
-    background-color: #a037d1;
-}
-
-.colour5 {
-    background-color: #d13737;
-}
-
-.colour6 {
-    background-color: #e4a503;
-}
-
-.colour7 {
-    background-color: #5137d1;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -110,3 +88,4 @@ body {
         opacity: 1;
     }
 }
+
